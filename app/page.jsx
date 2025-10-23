@@ -1,4 +1,4 @@
-import LikeButton from './like-button';
+import LikeButton from '../components/like-button';
  
 function Header({ title }) {
   return <h1>{title ? title : 'Default title'}</h1>;
